@@ -12,4 +12,15 @@ body {
     .sentence {
         display: none;
     }
+
+    .explanation-sm {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .explanation-sm {
+        display: none;
+    }
 }
